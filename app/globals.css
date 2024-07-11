@@ -18,16 +18,39 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+    margin-left: 5px;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+p{
+  border: 2px solid gray;
+  width: 30%;
+  margin-bottom: 5px;
+  border-radius: 7px;
+  padding: 3px;
+}
+
+h1{
+  margin: 10px;
+  color: #1976d2;
+}
+
+h2{
+  margin: 10px;
+  color: #1976d2;
+}
+
+.button{
+  margin: 10px;
 }
